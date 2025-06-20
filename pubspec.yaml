@@ -1,0 +1,41 @@
+name: quiz_true_false_app
+description: A new Flutter project for quiz true/false.
+
+# The version of the application
+version: 1.0.0+1
+
+# Specify the minimum SDK version for the project.
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Dependensi untuk UI dan logika aplikasi
+  auto_size_text: 3.0.0
+  cached_network_image: 3.4.1
+  flutter_animate: ^4.5.2
+  google_fonts: ^6.2.1
+  intl: 0.19.0
+  page_transition: ^2.2.1
+  provider: 6.1.2
+  shared_preferences: ^2.5.2
+  sqflite: ^2.4.2
+  timeago: ^3.7.0
+  url_launcher: ^6.3.1
+
+  # Jika Anda memerlukan tambahan library, seperti path_provider untuk mengakses file
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Daftar aset yang digunakan dalam aplikasi, seperti gambar dan video
+  assets:
+    - assets/images/
